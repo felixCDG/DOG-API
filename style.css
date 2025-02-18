@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+
+    background-color: rgb(121, 8, 8);
+    color: rgb(236, 238, 241);
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+}
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 4;
+
+}
+.galeria div{
+    flex-grow: 1;
+    height: 500px;
+
+}
+.galeria img{
+    width: 80px;
+    height: 105px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 2s;
+    border-radius: 30px;
+    border: 20px red;
+
+}
+.galeria img:hover{
+transform: scale(1.1);
+}
